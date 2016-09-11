@@ -17,14 +17,11 @@ This module is for one varient iterative supervised machine learning problems.
 
 """
 
-# Define training elements and learning rate
-m = 10
-alpha = 0.4
-
 def hypothesis(t0,t1,x,y):
     return (t0 + t1*x - y)
 
-def gradient_decent(x,y):
+# Adjust training elements (m) and learning rate (alpha) according to data
+def gradient_decent(x,y,m=10,alpha=0.4):
     
     # Initial Conditions
     theta_0 = 0
