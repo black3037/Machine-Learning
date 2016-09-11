@@ -1,7 +1,4 @@
 from __future__ import division
-import random
-import matplotlib.pyplot as plt
-
 """
 
 Copyright Derek Black 2016
@@ -45,38 +42,20 @@ def gradient_decent(x,y):
         theta1.append(theta_1)
         
         # Append cost function value        
-        J.append((1/2*m)*(theta_0 + theta_1*x[j] - y[j]))
+        J.append((1/2*m)*cost_function(theta_0,theta_1,x[j],y[j]))
            
-    return theta0, theta1
+    # Find minimized cost function value
+    J0 = min(J, key=abs)
     
-# Generate random data points to optimize    
-x = []
-y = []
-for i in range(m):
-    x.append(i)
-    y.append(random.uniform(0,50))
+    # Get corresponding Thetas for minimized cost function
+    flag = -1
+    for i in J:
+        flag = flag + 1
+        if i == J0:
+            theta_0_opt = theta0[flag]
+            theta_1_opt = theta1[flag]
     
-   
-gradient_decent(x,y)
-
-# Find minimized cost function value
-J0 = min(J, key=abs)
-
-# Get corresponding Thetas for minimized cost function
-flag = -1
-for i in J:
-    flag = flag + 1
-    if i == J0:
-        theta_0_opt = theta0[flag]
-        theta_1_opt = theta1[flag]
-
-new_y = []      
-for k in range(m):
-    new_y.append(theta_0_opt + theta_1_opt*k)
-
-plt.plot(x,new_y)
-plt.scatter(x,y)
-plt.plot(x,J)
-plt.show()
-
-
+    optimized_thetas = [theta_0_opt, theta_1_opt] 
+    
+    return optimized_thetas
+    
