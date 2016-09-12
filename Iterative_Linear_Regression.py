@@ -1,7 +1,4 @@
 from __future__ import division
-import random
-import matplotlib.pyplot as plt
-
 """
 
 Copyright Derek Black 2016
