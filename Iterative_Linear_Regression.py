@@ -12,7 +12,7 @@ Linear Regression
 Cost Functions
 Normal Equations
 
-This module is for multi-varient problems.
+This module is for single and  multi-variant problems.
 It utilzies two methods: Gradient Decent to Optimize the cost function
 and normal equations to automatically find the optimized thetas for 
 a minimized cost function.
@@ -22,13 +22,13 @@ iLinearRegression is an iterative method for solving linear regression problems.
 The i in LinearRegression stands for iterative.
 iLinearRegression utilizes a method called Gradient Decent to find values of theta
 for a minimized cost function. The function returns the optimized values of theta.
-This function is for single varient systems.
+This function is for single variant systems.
 	
 Ex. [theta0,theta1] = iLinearRegression([1,2,3],[10,12,15],m=10,alpha=0.4)
 The returned values can now be used in the equation 'y= theta0 + theat1*x' for
 the appropriate best fit linear model.
 
-LinearRegression is a normal equation based linear regression method.
+LinearRegression is a normal equation based linear regression method that works for multi-variant systems.
 The user inputs his training sets of size m, as well as the out y.
 The function will return a list of optimized thetas.
 
