@@ -125,6 +125,3 @@ def LinearRegression(*argv):
 
 	
 	return optimized_thetas
-	
-	
-z = LinearRegression([1,2,2],[3,4,3],[1,1,1])	
