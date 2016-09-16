@@ -98,7 +98,7 @@ def LinearRegression(*argv):
 	popmat = []
 	
 	# Generate ones vector for x0, training setting data column 1
-	for i in range(len(argv)):
+	for i in range(len(argv[0])):
 		ones.append(1)
 		
 	popmat.append(ones)
