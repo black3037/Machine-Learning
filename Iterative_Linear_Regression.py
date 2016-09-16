@@ -22,6 +22,7 @@ iLinearRegression is an iterative method for solving linear regression problems.
 The i in LinearRegression stands for iterative.
 iLinearRegression utilizes a method called Gradient Decent to find values of theta
 for a minimized cost function. The function returns the optimized values of theta.
+This function is for single varient systems.
 	
 Ex. [theta0,theta1] = iLinearRegression([1,2,3],[10,12,15],m=10,alpha=0.4)
 The returned values can now be used in the equation 'y= theta0 + theat1*x' for
