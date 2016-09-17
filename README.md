@@ -2,7 +2,7 @@
 
 ###SUPERVISED LEARNING TOPICS
 
-#####Iterative methods for gradient decent
+#####Iterative Methods for Gradient Decent
 
 #####Cost Functions
 
