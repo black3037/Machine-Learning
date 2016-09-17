@@ -33,7 +33,7 @@ Solution:
 [theta_0, theta_1] = iLinearRegression(x,y,m=5,alpha=0.4)
 
 ######Where x is the input set, y output set. m is the number of training examples 'len(x)', and alpha is the learning rate.
-######Alpha should be set according to your data. It is important to select the right learning rate so that gradient decent actually converges. To large a value and the algorithm could miss the optimal value, to little and the algorithm can take to long to converge.
+######Alpha should be set according to your data. It is important to select the right learning rate so that gradient decent actually converges. Too large a value and the algorithm could miss the optimal value, to little and the algorithm can take to long to converge.
 
 Which fits the form of the linear equation 'y = theta_0 + theata_1*x'
 
