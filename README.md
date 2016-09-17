@@ -24,7 +24,7 @@ The main purpose of this library is to provide users with an alternative approac
 
 ###Ex. 1, Iterative Linear Regression using iLinearRegression()
 
-Minimize the cost function iteratively for the data set ...
+####Minimize the cost function iteratively for the data set ...
 
 input(x) = [1,2,3,4,5], output(y) = [10,0,20,40,-20]
 
@@ -37,7 +37,7 @@ Which fits the form of the linear equation 'y = theta_0 + theata_1*x'
 
 ###Ex. 2, Normal Function Linear Regression using LinearRegression()
 
-Minimize the cost function using the normal equation for the data set...
+####Minimize the cost function using the normal equation for the data set...
 
 input(x) = [1,2,3,4,5], output(y) = [10,0,20,40,-20]
 
