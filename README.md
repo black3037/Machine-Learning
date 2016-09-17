@@ -1,17 +1,17 @@
 # MACHINE LEARNING
 
-SUPERVISED LEARNING TOPICS
+###SUPERVISED LEARNING TOPICS
 
-Iterative methods for gradient decent
+####Iterative methods for gradient decent
 
-Cost Functions
+####Cost Functions
 
-Normal Equations
+####Normal Equations
 
-Logistic Regression
+####Logistic Regression
 
-UNSUPERVISED LEARNING TOPICS:
-Coming soon.
+###UNSUPERVISED LEARNING TOPICS:
+####Coming soon.
 
 This project is frequently updated.
 
