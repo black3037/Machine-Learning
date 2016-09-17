@@ -1,4 +1,4 @@
-# Machine Learning
+# MACHINE LEARNING
 
 SUPERVISED LEARNING TOPICS
 
@@ -15,7 +15,11 @@ Coming soon.
 
 This project is frequently updated.
 
-# How to Use
+# PURPOSE OF THIS LIBRARY
+
+The main purpose of this library is to provide users with an alternative approach to machine learning. There are many good machine learning libraries that exist in python, but many of them are not useful in providing useful feedback and usability to users who are new to machine learning. The aim of this project is to simplify the approach to machine learning problems, with easy input easy output functions. This library is not for advanced users wishing for more robust control over their data. This library targets begining users who wish to learn more about machine learning, and not only that, this is a learning platform for myself.
+
+# HOW TO USE
 
 
 Ex. 1: Minimize the cost function iteratively for the data set ...
