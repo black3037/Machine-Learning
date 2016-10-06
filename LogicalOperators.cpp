@@ -11,8 +11,8 @@
 //*****************************************************************************************
 // Internal Function Prototypes
 //*****************************************************************************************
-int _and(float x1, float x2); // Set up logical 'and' function
-int _or(float x1, float x2); // Set up logical 'or' function
+bool _and(float x1, float x2); // Set up logical 'and' function
+bool _or(float x1, float x2); // Set up logical 'or' function
 float sigmoid(float x); // Set up sigmoid function
 
 void main()
@@ -46,7 +46,7 @@ float sigmoid(float x)
 
 }
 
-int _and(float x1, float x2) 
+bool _and(float x1, float x2) 
 {
 	// Set up corresponding weights for 'and' function
 	int weight[3] = { -30, 20, 20 };
@@ -59,7 +59,7 @@ int _and(float x1, float x2)
 	return truth;
 }
 
-int _or(float x1, float x2)
+bool _or(float x1, float x2)
 {
 	// Set up corresponding weights for 'or' function
 	int weight[3] = { -10, 20, 20 };
